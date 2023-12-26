@@ -7,7 +7,7 @@ int n = 12;
 
 void PrintNum(int m, int n)
 {
-    if (m == n) Console.Write($"{m}");
+    if (m == n) Console.WriteLine($"{m}");
     else
     {
         Console.Write($"{m}, ");
